@@ -5,18 +5,22 @@ name: "king context"
 description: "king context"
 
 # Your name. Will show in your footer + sidebar 
-author: "Jan Uyttenhove"
+owner: "Jan Uyttenhove"
+
+author: "King Context"
 
 url: "http://kingcontext.github.io"
 baseurl: ""
 
 # A short presentation of yourself. Will show in the sidebar, under your name. Best usage would be between 30 to 50 words. 
-author-bio: "I'm King Context. I develop things. This is my blog so why don't you close this damn side panel (cursed by most UX Designers but I don't care, I do whatever I want) and start reading my awesome stuff?"
+author-bio-p1: "Context is king. This is King Context."
+author-bio-p2: "It's all about data here!!"
 
-# Social Accounts (mine, as placeholders)
+# Social Accounts
 
 twitter: xorto
 github: kingcontext
+linkedin: januyttenhove
 #dribbble: m3xm
 #instagram: m3xm
 
