@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>king context</title>
+  <id>http://kingcontext.github.io</id>
+  <link href="http://kingcontext.github.io" />
+  <link href="http://kingcontext.github.io/atom.xml" rel="self" />
+  <updated>2015-08-25T15:32:26+02:00</updated>
+  <rights>Copyright 2014, Jan Uyttenhove</rights>
+  <author>
+    <name>Jan Uyttenhove</name>
+  </author>
+  
+    <entry>
+      <title>To get started is the hardest part</title>
+      <link href="http://kingcontext.github.io/2015/08/24/to-get-started/" />
+      <summary type="html">&lt;p&gt;I should start writing to structure my opinions and thoughts.&lt;/p&gt;
+
+&lt;p&gt;Here’s the idea.&lt;/p&gt;
+
+&lt;p&gt;Pocket is my collection of past and present ideas.
+Pick a preferably recently saved article link from Pocket, read and formulate comments and thoughts.
+In theory there should always be some opinion, because after all, I saved the link for a (good) reason.
+Unless of course the article is a real disappointment, which is obviously also just an opinion.&lt;/p&gt;
+
+&lt;p&gt;Becoming aware of your thoughts is the biggest challenge here.
+And after that, its just a matter of making them explicit.
+This is my attempt to write down ideas and thoughts, or at least to get starting doing so.&lt;/p&gt;
+
+&lt;p&gt;And to stop thinking about it.&lt;/p&gt;
+
+&lt;p&gt;Here it is, I started.&lt;/p&gt;
+
+&lt;p&gt;Context: &lt;em&gt;&lt;a href=&quot;http://howtomakemyblog.com/find-ideas/&quot;&gt;17 Quick Ways To Get Great Blog Content Ideas&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Just write every day and you’ll be surprised what comes out. Get ahead of yourself, keep an ideas doc.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+</summary>
+      <id>http://kingcontext.github.io/2015/08/24/to-get-started/</id>
+      <updated>2015-08-24T18:57:51+02:00</updated>
+      <author>
+        <name>Jan Uyttenhove</name>
+      </author>
+    </entry>
+  
+</feed>
