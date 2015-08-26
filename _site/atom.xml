@@ -4,15 +4,15 @@
   <id>http://kingcontext.github.io</id>
   <link href="http://kingcontext.github.io" />
   <link href="http://kingcontext.github.io/atom.xml" rel="self" />
-  <updated>2015-08-25T16:55:18+02:00</updated>
+  <updated>2015-08-26T11:53:19+02:00</updated>
   <rights>Copyright 2014, King Context</rights>
   <author>
     <name>King Context</name>
   </author>
   
     <entry>
-      <title>To get started is the hardest part</title>
-      <link href="http://kingcontext.github.io/2015/08/24/to-get-started/" />
+      <title>Getting started is the hardest part</title>
+      <link href="http://kingcontext.github.io/2015/08/24/getting-started/" />
       <summary type="html">&lt;p&gt;I should start writing to structure my opinions and thoughts.&lt;/p&gt;
 
 &lt;p&gt;Here’s the idea.&lt;/p&gt;
@@ -37,7 +37,7 @@ This is my attempt to write down ideas and thoughts, or at least to get starting
 &lt;/blockquote&gt;
 
 </summary>
-      <id>http://kingcontext.github.io/2015/08/24/to-get-started/</id>
+      <id>http://kingcontext.github.io/2015/08/24/getting-started/</id>
       <updated>2015-08-24T18:57:51+02:00</updated>
       <author>
         <name>King Context</name>

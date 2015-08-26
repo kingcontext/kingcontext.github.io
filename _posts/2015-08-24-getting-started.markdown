@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "To get started is the hardest part"
+title:  "Getting started is the hardest part"
 date:   2015-08-24 16:57:51
 ---
 
