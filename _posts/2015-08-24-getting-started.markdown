@@ -10,7 +10,7 @@ I should start writing to structure my opinions and thoughts.
 
 Here’s the idea.
 
-Pocket is my collection of past and present ideas.
+[Pocket](https://getpocket.com/) is my collection of past and present ideas.
 Pick a preferably recently saved article link from Pocket, read and formulate comments and thoughts.
 In theory there should always be some opinion, because after all, I saved the link for a (good) reason.
 Unless of course the article is a real disappointment, which is obviously also just an opinion.
