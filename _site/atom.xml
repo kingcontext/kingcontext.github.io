@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>king context</title>
-  <id>http://kingcontext.github.io</id>
-  <link href="http://kingcontext.github.io" />
-  <link href="http://kingcontext.github.io/atom.xml" rel="self" />
-  <updated>2015-08-26T11:53:19+02:00</updated>
+  <id>http://www.kingcontext.com</id>
+  <link href="http://www.kingcontext.com" />
+  <link href="http://www.kingcontext.com/atom.xml" rel="self" />
+  <updated>2015-08-27T15:43:56+02:00</updated>
   <rights>Copyright 2014, King Context</rights>
   <author>
     <name>King Context</name>
@@ -12,12 +12,12 @@
   
     <entry>
       <title>Getting started is the hardest part</title>
-      <link href="http://kingcontext.github.io/2015/08/24/getting-started/" />
+      <link href="http://www.kingcontext.com/2015/08/24/getting-started/" />
       <summary type="html">&lt;p&gt;I should start writing to structure my opinions and thoughts.&lt;/p&gt;
 
 &lt;p&gt;Here’s the idea.&lt;/p&gt;
 
-&lt;p&gt;Pocket is my collection of past and present ideas.
+&lt;p&gt;&lt;a href=&quot;https://getpocket.com/&quot;&gt;Pocket&lt;/a&gt; is my collection of past and present ideas.
 Pick a preferably recently saved article link from Pocket, read and formulate comments and thoughts.
 In theory there should always be some opinion, because after all, I saved the link for a (good) reason.
 Unless of course the article is a real disappointment, which is obviously also just an opinion.&lt;/p&gt;
@@ -37,7 +37,7 @@ This is my attempt to write down ideas and thoughts, or at least to get starting
 &lt;/blockquote&gt;
 
 </summary>
-      <id>http://kingcontext.github.io/2015/08/24/getting-started/</id>
+      <id>http://www.kingcontext.com/2015/08/24/getting-started/</id>
       <updated>2015-08-24T18:57:51+02:00</updated>
       <author>
         <name>King Context</name>
