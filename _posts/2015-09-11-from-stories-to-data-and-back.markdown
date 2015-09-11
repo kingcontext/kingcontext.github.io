@@ -7,6 +7,8 @@ Maybe, _stories are just data with a soul_. That's a statement of Dr. [Brené Br
 
 Today's (big) (smart) data analytics is all about analyzing raw data, recorded from stories and stripped of soul. The recording _context_ is the most soul that's left.
 
-Gaining insights from analytics generates new data. But how do we add the right soul to that new data, to make it actionable, to tell the right stories? I think need to record more context _soul_ in the first place. 
+The insights gained from analytics generates new data. But how do we add the right soul to that new data, to make it actionable, **to tell the right stories?** I think we need to record more context _soul_ in the first place. 
 
 Context: _[The power of vulnerability](https://www.ted.com/talks/brene_brown_on_vulnerability)_
+
+>I'm a qualitative researcher. I collect stories; that's what I do. And maybe stories are just data with a soul. And maybe I'm just a storyteller.
