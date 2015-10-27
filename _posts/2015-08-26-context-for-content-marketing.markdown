@@ -13,7 +13,7 @@ It's a no-brainer that for content marketing, quality content is important. But 
 
 To me this kind of marketing is about evolving from mass marketing to more personalized, a more tailored one-to-one marketing. It's about optimizing the human interactions by profiling and segmenting your customers, leads or prospects. It has little to do with context, it's still regular content marketing but more tailored.
 
-To be capable however to do a more one-to-one marketing, you'll need to collect your customer interaction data and build customer profiles. To do so, attract interactions with quality content marketing and track and collect contextulaized interaction data. **It's the context of the collected data that will prove to be indispensable for deriving real customer insights and building customer profiles relevant for one-to-one marketing.**
+To be capable however to do a more one-to-one marketing, you'll need to collect your customer interaction data and build customer profiles. To do so, attract interactions with quality content marketing and track and collect contextualized interaction data. **It's the context of the collected data that will prove to be indispensable for deriving real customer insights and building customer profiles relevant for one-to-one marketing.**
 
 And that is why in my opinion, context is indeed king.
 
