@@ -6,6 +6,7 @@ description: "king context"
 
 # Your name. Will show in your footer + sidebar 
 owner: "Jan Uyttenhove"
+company: "Insidin"
 
 author: "King Context"
 
@@ -19,7 +20,7 @@ author-bio-p2: "It's all about data here!!"
 # Social Accounts
 
 twitter: xorto
-github: kingcontext
+#github: kingcontext
 linkedin: januyttenhove
 #dribbble: m3xm
 #instagram: m3xm

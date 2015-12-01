@@ -18,15 +18,15 @@
       <link href="//fonts.googleapis.com/css?family=Open+Sans:400italic,400,300,700|Lora:400,700,400italic" rel="stylesheet" type="text/css">
       <link rel="stylesheet" type="text/css" href="/css/main.css" />
       <link href="atom.xml" type="application/atom+xml" rel="alternate" title="Site ATOM Feed">
-      <meta property="og:title" content="Getting started is the hardest part" />
+      <meta property="og:title" content="Assuming a closed world" />
       <meta property="og:type" content="article" />
       <meta property="og:image" content="" /> <!-- todo -->
-      <meta property="og:url" content="http://www.kingcontext.com/2015/08/24/getting-started/" />
+      <meta property="og:url" content="http://www.kingcontext.com/2015/10/14/assuming-a-closed-world/" />
       <meta property="og:description" content="" /> <!-- todo -->
       <meta property="fb:admins" content="715107162" />
       <meta name="twitter:card" content="" />
-      <meta name="twitter:url" content="http://www.kingcontext.com/2015/08/24/getting-started/">
-      <meta name="twitter:title" content="Getting started is the hardest part" />
+      <meta name="twitter:url" content="http://www.kingcontext.com/2015/10/14/assuming-a-closed-world/">
+      <meta name="twitter:title" content="Assuming a closed world" />
       <meta name="twitter:description" content="" />
       <meta name="twitter:image" content="" />
   </head>
@@ -76,51 +76,46 @@
   <article class="single-content" itemscope itemtype="http://schema.org/BlogPosting">
     <div class="feat">
       <h5 class="page-date">
-        <time datetime="2015-08-24T18:57:51+02:00" itemprop="datePublished">
-          24 August 2015
+        <time datetime="2015-10-14T13:04:35+02:00" itemprop="datePublished">
+          14 October 2015
         </time>
       </h5>
     </div>
-    <h1 class="page-title" itemprop="name headline">Getting started is the hardest part</h1>
+    <h1 class="page-title" itemprop="name headline">Assuming a closed world</h1>
     <div itemprop="articleBody">
-      <p>I should start writing to structure my opinions and thoughts.</p>
+      <p>Hardly anyone will disagree with the statement that no-one posesses all information and knowledge that is out there. Yet many software systems are built as if they contain or control a complete set of information. They adhere - often unknowingly - the principle of the <a href="https://en.wikipedia.org/wiki/Closed-world_assumption">Closed world assumption</a>.</p>
 
-<p>Here’s the idea.</p>
+<p>New systems and apps today do it differently. Smart (streaming) (big) data applications unlock new sources of data. Open datasets are linked and used to enrich enterprise data. Analytics derive new insights. It becomes clear to many that there is a virtually unlimited, open world of datasets waiting to be explored.</p>
 
-<p><a href="https://getpocket.com/">Pocket</a> is my collection of past and present ideas.
-Pick a preferably recently saved article link from Pocket, read and formulate comments and thoughts.
-In theory there should always be some opinion, because after all, I saved the link for a (good) reason.
-Unless of course the article is a real disappointment, which is obviously also just an opinion.</p>
+<p>Enterprises first had data lakes and now evolve to use streaming data platforms. But still there’s often no <a href="https://en.wikipedia.org/wiki/Open-world_assumption">Open world</a> assumed when designing the new solutions using all this data. Wrong by design, already. And why would this be so important, you ask?</p>
 
-<p>Becoming aware of your thoughts is the biggest challenge here.
-And after that, its just a matter of making them explicit.
-This is my attempt to write down ideas and thoughts, or at least to get starting doing so.</p>
+<p>Take for example a Consumer Profile, composed for the purpose of omni-channel marketing campaigning. The customer order history files are combined with a stream of online (web, app) visits, albeit identified. Some visitors can be linked to known customers, and so their Consumer Profile gets a <em>true</em> value in the field <em>isCustomer</em>.</p>
 
-<p>And to stop thinking about it.</p>
+<p>A lot of the stream of visitors however cannot be linked to an order. Especially in the very beginning of this new data collection effort this occurs frequently. If at this point they get a <em>false</em> for the <em>isCustomer</em> field, it is based on a Closed world assumption.</p>
 
-<p>Here it is, I started.</p>
+<p>This example of a wrong deduction should be very clear. The <em>isCustomer</em> should instead read <em>unknown</em> as long as no order can be linked to a visitor. It seems obvious, but I’ve seen this very example been implemented incorrectly already a number of times. And I don’t have to explain the consequences, of course.</p>
 
-<p>Context: <em><a href="http://howtomakemyblog.com/find-ideas/">17 Quick Ways To Get Great Blog Content Ideas</a></em></p>
+<p>A lot of <strong>incorrect insights</strong> are also implemented in other, less obvious use cases. And some are also blamed to poor data quality, but are in fact the result of a wrong - often implicit - assumption. Or it’s the result of a data integration (or migration) effort that should have - but didn’t - considered that even for such an effort, the logic of the Open World Assumption applies.</p>
+
+<p>In short: it’s a good practice to <strong>always assume an open world</strong>, because after all, it is.</p>
+
+<p>Context: <em><a href="http://www.cmswire.com/customer-experience/bad-customer-data-will-sabotage-your-crm-initiative/">Bad customer data will sabotage your CRM initiative</a></em></p>
 
 <blockquote>
-  <p>Just write every day and you’ll be surprised what comes out. Get ahead of yourself, keep an ideas doc.</p>
+  <p>The marketing team unintentionally sent the campaign to a lot of deceased customers because the ‘deceased’ data field wasn’t properly migrated to the new CRM application.</p>
 </blockquote>
 
 
     </div>
     <div class="feat share">
-      <a href="http://twitter.com/share?text=Getting started is the hardest part&url=http://www.kingcontext.com/2015/08/24/getting-started/&via=xorto&related=xorto" rel="nofollow" target="_blank" title="Share on Twitter" class="popup"><span class="icon-twitter"></span></a>
-      <a href="https://facebook.com/sharer.php?u=http://www.kingcontext.com/2015/08/24/getting-started/" rel="nofollow" target="_blank" title="Share on Facebook" class="popup"><span class="icon-facebook2"></span></a>
-      <a href="http://www.linkedin.com/shareArticle?mini=true&url=http://www.kingcontext.com/2015/08/24/getting-started/&title=Getting started is the hardest part" class="popup"><span class="icon-linkedin"></span>
+      <a href="http://twitter.com/share?text=Assuming a closed world&url=http://www.kingcontext.com/2015/10/14/assuming-a-closed-world/&via=xorto&related=xorto" rel="nofollow" target="_blank" title="Share on Twitter" class="popup"><span class="icon-twitter"></span></a>
+      <a href="https://facebook.com/sharer.php?u=http://www.kingcontext.com/2015/10/14/assuming-a-closed-world/" rel="nofollow" target="_blank" title="Share on Facebook" class="popup"><span class="icon-facebook2"></span></a>
+      <a href="http://www.linkedin.com/shareArticle?mini=true&url=http://www.kingcontext.com/2015/10/14/assuming-a-closed-world/&title=Assuming a closed world" class="popup"><span class="icon-linkedin"></span>
       </a>
     </div>
     
-      <a rel="next" href="/2015/08/26/context-for-content-marketing/" id="next">
-        <span class="nav-title nav-title-next">newer</span> &rarr;
-      </a>
     
-    
-      <a rel="prev" href="/2015/08/22/privacy-statement/" id="prev">
+      <a rel="prev" href="/2015/09/11/from-stories-to-data-and-back/" id="prev">
         &larr; <span class="nav-title nav-title-prev">older</span>
       </a>
     

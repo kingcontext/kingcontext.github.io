@@ -4,11 +4,96 @@
   <id>http://www.kingcontext.com</id>
   <link href="http://www.kingcontext.com" />
   <link href="http://www.kingcontext.com/atom.xml" rel="self" />
-  <updated>2015-08-27T15:43:56+02:00</updated>
+  <updated>2015-12-01T07:08:11+01:00</updated>
   <rights>Copyright 2014, King Context</rights>
   <author>
     <name>King Context</name>
   </author>
+  
+    <entry>
+      <title>Assuming a closed world</title>
+      <link href="http://www.kingcontext.com/2015/10/14/assuming-a-closed-world/" />
+      <summary type="html">&lt;p&gt;Hardly anyone will disagree with the statement that no-one posesses all information and knowledge that is out there. Yet many software systems are built as if they contain or control a complete set of information. They adhere - often unknowingly - the principle of the &lt;a href=&quot;https://en.wikipedia.org/wiki/Closed-world_assumption&quot;&gt;Closed world assumption&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;New systems and apps today do it differently. Smart (streaming) (big) data applications unlock new sources of data. Open datasets are linked and used to enrich enterprise data. Analytics derive new insights. It becomes clear to many that there is a virtually unlimited, open world of datasets waiting to be explored.&lt;/p&gt;
+
+&lt;p&gt;Enterprises first had data lakes and now evolve to use streaming data platforms. But still there’s often no &lt;a href=&quot;https://en.wikipedia.org/wiki/Open-world_assumption&quot;&gt;Open world&lt;/a&gt; assumed when designing the new solutions using all this data. Wrong by design, already. And why would this be so important, you ask?&lt;/p&gt;
+
+&lt;p&gt;Take for example a Consumer Profile, composed for the purpose of omni-channel marketing campaigning. The customer order history files are combined with a stream of online (web, app) visits, albeit identified. Some visitors can be linked to known customers, and so their Consumer Profile gets a &lt;em&gt;true&lt;/em&gt; value in the field &lt;em&gt;isCustomer&lt;/em&gt;.&lt;/p&gt;
+
+&lt;p&gt;A lot of the stream of visitors however cannot be linked to an order. Especially in the very beginning of this new data collection effort this occurs frequently. If at this point they get a &lt;em&gt;false&lt;/em&gt; for the &lt;em&gt;isCustomer&lt;/em&gt; field, it is based on a Closed world assumption.&lt;/p&gt;
+
+&lt;p&gt;This example of a wrong deduction should be very clear. The &lt;em&gt;isCustomer&lt;/em&gt; should instead read &lt;em&gt;unknown&lt;/em&gt; as long as no order can be linked to a visitor. It seems obvious, but I’ve seen this very example been implemented incorrectly already a number of times. And I don’t have to explain the consequences, of course.&lt;/p&gt;
+
+&lt;p&gt;A lot of &lt;strong&gt;incorrect insights&lt;/strong&gt; are also implemented in other, less obvious use cases. And some are also blamed to poor data quality, but are in fact the result of a wrong - often implicit - assumption. Or it’s the result of a data integration (or migration) effort that should have - but didn’t - considered that even for such an effort, the logic of the Open World Assumption applies.&lt;/p&gt;
+
+&lt;p&gt;In short: it’s a good practice to &lt;strong&gt;always assume an open world&lt;/strong&gt;, because after all, it is.&lt;/p&gt;
+
+&lt;p&gt;Context: &lt;em&gt;&lt;a href=&quot;http://www.cmswire.com/customer-experience/bad-customer-data-will-sabotage-your-crm-initiative/&quot;&gt;Bad customer data will sabotage your CRM initiative&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;The marketing team unintentionally sent the campaign to a lot of deceased customers because the ‘deceased’ data field wasn’t properly migrated to the new CRM application.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+</summary>
+      <id>http://www.kingcontext.com/2015/10/14/assuming-a-closed-world/</id>
+      <updated>2015-10-14T13:04:35+02:00</updated>
+      <author>
+        <name>King Context</name>
+      </author>
+    </entry>
+  
+    <entry>
+      <title>From stories to data and back</title>
+      <link href="http://www.kingcontext.com/2015/09/11/from-stories-to-data-and-back/" />
+      <summary type="html">&lt;p&gt;Maybe, &lt;em&gt;stories are just data with a soul&lt;/em&gt;. That’s a statement of Dr. &lt;a href=&quot;http://brenebrown.com/&quot;&gt;Brené Brown&lt;/a&gt; about her being a researcher, a storyteller, or both.&lt;/p&gt;
+
+&lt;p&gt;Today’s (big) (smart) data analytics is all about analyzing raw data, recorded from stories and stripped of soul. The recording &lt;em&gt;context&lt;/em&gt; is the most soul that’s left.&lt;/p&gt;
+
+&lt;p&gt;The insights gained from analytics generates new data. But how do we add the right soul to that new data, to make it actionable, &lt;strong&gt;to tell the right stories?&lt;/strong&gt; I think we need to record more context &lt;em&gt;soul&lt;/em&gt; in the first place.&lt;/p&gt;
+
+&lt;p&gt;Context: &lt;em&gt;&lt;a href=&quot;https://www.ted.com/talks/brene_brown_on_vulnerability&quot;&gt;The power of vulnerability&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;I’m a qualitative researcher. I collect stories; that’s what I do. And maybe stories are just data with a soul. And maybe I’m just a storyteller.&lt;/p&gt;
+&lt;/blockquote&gt;
+</summary>
+      <id>http://www.kingcontext.com/2015/09/11/from-stories-to-data-and-back/</id>
+      <updated>2015-09-11T11:37:19+02:00</updated>
+      <author>
+        <name>King Context</name>
+      </author>
+    </entry>
+  
+    <entry>
+      <title>Context for content marketing</title>
+      <link href="http://www.kingcontext.com/2015/08/26/context-for-content-marketing/" />
+      <summary type="html">&lt;p&gt;Back in 1996, Bill Gates &lt;a href=&quot;http://www.craigbailey.net/content-is-king-by-bill-gates/&quot;&gt;wrote&lt;/a&gt; that on the internet, &lt;em&gt;content is king&lt;/em&gt;. His article is about content providers getting paid for their work. In this perspective he states that the definition of content on the internet is a very broad one. He’s talking about the internet as &lt;em&gt;a marketplace of ideas, experiences, and products - a marketplace of content&lt;/em&gt;.&lt;/p&gt;
+
+&lt;p&gt;His catchy phrase has become very popular ever since.&lt;/p&gt;
+
+&lt;p&gt;Some years ago &lt;a href=&quot;http://www.sethgodin.com/&quot;&gt;Seth Godin&lt;/a&gt; said &lt;em&gt;content marketing is the only marketing left&lt;/em&gt;. &lt;a href=&quot;https://en.wikipedia.org/wiki/Content_marketing&quot;&gt;Content marketing&lt;/a&gt; is any marketing that involves the creation and sharing of media and publishing content in order to acquire and retain customers.&lt;/p&gt;
+
+&lt;p&gt;It’s a no-brainer that for content marketing, quality content is important. But in todays marketing it’s not just great content that matters. A marketeer wants to know how, when, where and to whom they should deliver the content. They call out that &lt;strong&gt;context is king&lt;/strong&gt;, and sometimes refer to it as context marketing.&lt;/p&gt;
+
+&lt;p&gt;To me this kind of marketing is about evolving from mass marketing to more personalized, a more tailored one-to-one marketing. It’s about optimizing the human interactions by profiling and segmenting your customers, leads or prospects. It has little to do with context, it’s still regular content marketing but more tailored.&lt;/p&gt;
+
+&lt;p&gt;To be capable however to do a more one-to-one marketing, you’ll need to collect your customer interaction data and build customer profiles. To do so, attract interactions with quality content marketing and track and collect contextualized interaction data. &lt;strong&gt;It’s the context of the collected data that will prove to be indispensable for deriving real customer insights and building customer profiles relevant for one-to-one marketing.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;And that is why in my opinion, context is indeed king.&lt;/p&gt;
+
+&lt;p&gt;Context: &lt;em&gt;&lt;a href=&quot;http://www.apptentive.com/blog/context-marketing-is-the-new-content-marketing/&quot;&gt;Context marketing is the new content marketing&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Context marketing is about delivering the right message, to the right person, via the right medium, at the right place and at the right time.&lt;/p&gt;
+&lt;/blockquote&gt;
+</summary>
+      <id>http://www.kingcontext.com/2015/08/26/context-for-content-marketing/</id>
+      <updated>2015-08-26T11:21:11+02:00</updated>
+      <author>
+        <name>King Context</name>
+      </author>
+    </entry>
   
     <entry>
       <title>Getting started is the hardest part</title>
@@ -39,6 +124,70 @@ This is my attempt to write down ideas and thoughts, or at least to get starting
 </summary>
       <id>http://www.kingcontext.com/2015/08/24/getting-started/</id>
       <updated>2015-08-24T18:57:51+02:00</updated>
+      <author>
+        <name>King Context</name>
+      </author>
+    </entry>
+  
+    <entry>
+      <title>Privacy statement</title>
+      <link href="http://www.kingcontext.com/2015/08/22/privacy-statement/" />
+      <summary type="html">&lt;p&gt;Your privacy is important to kingcontext.com, an Insidin brand. This privacy statement provides information about the personal information that Insidin collects, and the ways in which Insidin uses that personal information.&lt;/p&gt;
+
+&lt;h4 id=&quot;credit&quot;&gt;Credit&lt;/h4&gt;
+&lt;p&gt;This document was created using a Contractology template available at http://www.freenetlaw.com.&lt;/p&gt;
+
+&lt;h4 id=&quot;personal-information-collection&quot;&gt;Personal information collection&lt;/h4&gt;
+&lt;p&gt;Insidin may collect and use the following kinds of personal information: 
+- information about your use of this website; 
+- information that you provide using for the purpose of registering with the website;
+- information about transactions carried out over this website;
+- information that you provide for the purpose of subscribing to the website services; and
+- any other information that you send to Insidin.&lt;/p&gt;
+
+&lt;h4 id=&quot;using-personal-information&quot;&gt;Using personal information&lt;/h4&gt;
+&lt;p&gt;Insidin may use your personal information to:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;administer this website;&lt;/li&gt;
+  &lt;li&gt;personalize the website for you;&lt;/li&gt;
+  &lt;li&gt;enable your access to and use of the website services;&lt;/li&gt;
+  &lt;li&gt;publish information about you on the website;&lt;/li&gt;
+  &lt;li&gt;supply to you services that you purchase;&lt;/li&gt;
+  &lt;li&gt;send to you statements and invoices;&lt;/li&gt;
+  &lt;li&gt;collect payments from you; and&lt;/li&gt;
+  &lt;li&gt;send you marketing communications.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Where Insidin discloses your personal information to its agents or sub-contractors for these purposes, the agent or sub-contractor in question will be obligated to use that personal information in accordance with the terms of this privacy statement.&lt;/p&gt;
+
+&lt;p&gt;In addition to the disclosures reasonably necessary for the purposes identified elsewhere above, Insidin may disclose your personal information to the extent that it is required to do so by law, in connection with any legal proceedings or prospective legal proceedings, and in order to establish, exercise or defend its legal rights.&lt;/p&gt;
+
+&lt;h4 id=&quot;securing-your-data&quot;&gt;Securing your data&lt;/h4&gt;
+&lt;p&gt;Insidin will take reasonable technical and organisational precautions to prevent the loss, misuse or alteration of your personal information.&lt;/p&gt;
+
+&lt;p&gt;Insidin will store all the personal information you provide on its secure servers.&lt;/p&gt;
+
+&lt;h4 id=&quot;cross-border-data-transfers&quot;&gt;Cross-border data transfers&lt;/h4&gt;
+&lt;p&gt;Information that Insidin collects may be stored and processed in and transferred between any of the countries in which Insidin operates to enable the use of the information in accordance with this privacy policy.&lt;/p&gt;
+
+&lt;p&gt;You agree to such cross-border transfers of personal information.&lt;/p&gt;
+
+&lt;h4 id=&quot;updating-this-statement&quot;&gt;Updating this statement&lt;/h4&gt;
+&lt;p&gt;Insidin may update this privacy policy by posting a new version on this website.&lt;/p&gt;
+
+&lt;p&gt;You should check this page occasionally to ensure you are familiar with any changes.&lt;/p&gt;
+
+&lt;h4 id=&quot;other-websites&quot;&gt;Other websites&lt;/h4&gt;
+&lt;p&gt;This website contains links to other websites.&lt;/p&gt;
+
+&lt;p&gt;Insidin is not responsible for the privacy policies or practices of any third party.&lt;/p&gt;
+
+&lt;h4 id=&quot;contact-insidin&quot;&gt;Contact Insidin&lt;/h4&gt;
+&lt;p&gt;If you have any questions about this privacy policy or Insidin treatment of your personal information, please write by email to info@kingcontext.com&lt;/p&gt;
+</summary>
+      <id>http://www.kingcontext.com/2015/08/22/privacy-statement/</id>
+      <updated>2015-08-22T11:22:54+02:00</updated>
       <author>
         <name>King Context</name>
       </author>
