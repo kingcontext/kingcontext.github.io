@@ -41,9 +41,9 @@
         <img src="{{ site.baseurl }}/assets/img/kc.png" alt="Picture" title="That's me, {{ site.author }}.">
       </figure>
       <div class="bio">
-          <h1>Hi, I'm {{ site.author }}.</h1>
-          <p>{{ site.author-bio-p1 }}</p>
-          <p>{{ site.author-bio-p2 }}</p>
+          <h1>About {{ site.author }}.</h1>
+          <p>King Context is an <a href="http://www.insidin.com">Insidin</a> brand, with a clear focus on data, context and information management. </p>
+          <p>Contact me via <a href="mailto:{{ site.email }}">{{ site.email }}</a>
       </div>
       <nav>
         <h6>Follow me on</h6>
@@ -56,12 +56,11 @@
           {% endif %}
           -->
           {% if site.linkedin %}
-          <a target="_blank" href="https://www.linkedin.com/in/{{ site.linkedin }}">LinkedIn</a>
+          <a target="_blank" href="https://www.linkedin.com/in/{{ site.linkedin }}"><span class="icon-linkedin"/></a>
           {% endif %}
-          {% if site.instagram %}
-          <li><a target="_blank" href="https://instagram.com/{{ site.instagram }}">Instagram</a></li>
+          {% if site.facebook %}
+          <a target="_blank" href="https://www.facebook.com/{{ site.facebook }}"><span class="icon-facebook2"/></a>
           {% endif %}
-        
       </nav>
     </div>
 

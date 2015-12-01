@@ -4,7 +4,7 @@
   <id>http://www.kingcontext.com</id>
   <link href="http://www.kingcontext.com" />
   <link href="http://www.kingcontext.com/atom.xml" rel="self" />
-  <updated>2015-12-01T07:08:11+01:00</updated>
+  <updated>2015-12-01T07:43:37+01:00</updated>
   <rights>Copyright 2014, King Context</rights>
   <author>
     <name>King Context</name>
@@ -60,6 +60,20 @@
 </summary>
       <id>http://www.kingcontext.com/2015/09/11/from-stories-to-data-and-back/</id>
       <updated>2015-09-11T11:37:19+02:00</updated>
+      <author>
+        <name>King Context</name>
+      </author>
+    </entry>
+  
+    <entry>
+      <title>About King Context</title>
+      <link href="http://www.kingcontext.com/2015/09/01/about/" />
+      <summary type="html">&lt;p&gt;King Context is an &lt;a href=&quot;http://www.insidin.com&quot;&gt;Insidin&lt;/a&gt; brand.&lt;/p&gt;
+
+&lt;p&gt;This initiative focusses on data, context and information management.&lt;/p&gt;
+</summary>
+      <id>http://www.kingcontext.com/2015/09/01/about/</id>
+      <updated>2015-09-01T09:23:45+02:00</updated>
       <author>
         <name>King Context</name>
       </author>
@@ -164,24 +178,20 @@ This is my attempt to write down ideas and thoughts, or at least to get starting
 &lt;p&gt;In addition to the disclosures reasonably necessary for the purposes identified elsewhere above, Insidin may disclose your personal information to the extent that it is required to do so by law, in connection with any legal proceedings or prospective legal proceedings, and in order to establish, exercise or defend its legal rights.&lt;/p&gt;
 
 &lt;h4 id=&quot;securing-your-data&quot;&gt;Securing your data&lt;/h4&gt;
-&lt;p&gt;Insidin will take reasonable technical and organisational precautions to prevent the loss, misuse or alteration of your personal information.&lt;/p&gt;
-
-&lt;p&gt;Insidin will store all the personal information you provide on its secure servers.&lt;/p&gt;
+&lt;p&gt;Insidin will take reasonable technical and organisational precautions to prevent the loss, misuse or alteration of your personal information. 
+Insidin will store all the personal information you provide on its secure servers.&lt;/p&gt;
 
 &lt;h4 id=&quot;cross-border-data-transfers&quot;&gt;Cross-border data transfers&lt;/h4&gt;
-&lt;p&gt;Information that Insidin collects may be stored and processed in and transferred between any of the countries in which Insidin operates to enable the use of the information in accordance with this privacy policy.&lt;/p&gt;
-
-&lt;p&gt;You agree to such cross-border transfers of personal information.&lt;/p&gt;
+&lt;p&gt;Information that Insidin collects may be stored and processed in and transferred between any of the countries in which Insidin operates to enable the use of the information in accordance with this privacy policy.
+You agree to such cross-border transfers of personal information.&lt;/p&gt;
 
 &lt;h4 id=&quot;updating-this-statement&quot;&gt;Updating this statement&lt;/h4&gt;
-&lt;p&gt;Insidin may update this privacy policy by posting a new version on this website.&lt;/p&gt;
-
-&lt;p&gt;You should check this page occasionally to ensure you are familiar with any changes.&lt;/p&gt;
+&lt;p&gt;Insidin may update this privacy policy by posting a new version on this website.&lt;br /&gt;
+You should check this page occasionally to ensure you are familiar with any changes.&lt;/p&gt;
 
 &lt;h4 id=&quot;other-websites&quot;&gt;Other websites&lt;/h4&gt;
-&lt;p&gt;This website contains links to other websites.&lt;/p&gt;
-
-&lt;p&gt;Insidin is not responsible for the privacy policies or practices of any third party.&lt;/p&gt;
+&lt;p&gt;This website contains links to other websites.&lt;br /&gt;
+Insidin is not responsible for the privacy policies or practices of any third party.&lt;/p&gt;
 
 &lt;h4 id=&quot;contact-insidin&quot;&gt;Contact Insidin&lt;/h4&gt;
 &lt;p&gt;If you have any questions about this privacy policy or Insidin treatment of your personal information, please write by email to info@kingcontext.com&lt;/p&gt;

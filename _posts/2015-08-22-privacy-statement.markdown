@@ -36,22 +36,18 @@ In addition to the disclosures reasonably necessary for the purposes identified 
 
 ####Securing your data
 Insidin will take reasonable technical and organisational precautions to prevent the loss, misuse or alteration of your personal information. 
-
 Insidin will store all the personal information you provide on its secure servers. 
 
 ####Cross-border data transfers
 Information that Insidin collects may be stored and processed in and transferred between any of the countries in which Insidin operates to enable the use of the information in accordance with this privacy policy.
-
 You agree to such cross-border transfers of personal information.
 
 ####Updating this statement
 Insidin may update this privacy policy by posting a new version on this website.  
-
 You should check this page occasionally to ensure you are familiar with any changes.  
 
 ####Other websites
 This website contains links to other websites.  
-
 Insidin is not responsible for the privacy policies or practices of any third party.
 
 ####Contact Insidin

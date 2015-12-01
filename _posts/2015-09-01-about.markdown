@@ -1,0 +1,9 @@
+---
+layout: post
+title:  About King Context
+date:   2015-09-01 07:23:45
+---
+
+King Context is an [Insidin](http://www.insidin.com) brand.
+
+This initiative focusses on data, context and information management. 
