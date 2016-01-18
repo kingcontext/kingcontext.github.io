@@ -112,7 +112,7 @@
       </a>
     </div>
     
-      <a rel="next" href="/2015/09/11/from-stories-to-data-and-back/" id="next">
+      <a rel="next" href="/2015/09/01/about/" id="next">
         <span class="nav-title nav-title-next">newer</span> &rarr;
       </a>
     
@@ -147,6 +147,19 @@
         ga('send', 'pageview');
       </script>
     
-
+    <script>window.cookieconsent_options = {theme:'dark-bottom'};</script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/1.0.9/cookieconsent.min.js"></script>
+    <script src="http://div-lb-1358448420.eu-west-1.elb.amazonaws.com/divolte.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+    <script src="/js/hashids.min.js"></script>
+    <script>
+      $(document).ready(function () {
+        var hashids = new Hashids("this is the sound of c");
+        window.tha = hashids.encode(+divolte.fpId);
+        $("a").click(function(){
+          $(this).attr('href', $(this).attr('href')+"#"+window.tha);
+        });
+      });
+    </script>
   </body>
 </html>

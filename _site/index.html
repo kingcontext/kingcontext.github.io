@@ -105,6 +105,20 @@
     </li>
     
     <li itemscope itemtype="http://schema.org/BlogPosting">
+      <a href="/2015/09/01/about/" itemprop="url">
+        <div class="p-wrap">
+          <article class="inner">
+            <time datetime="2015-09-01T09:23:45+02:00"
+                itemprop="datePublished">
+              01 Sep 2015
+            </time>
+            <p itemprop="name headline">About King Context</p>
+          </article>
+        </div>
+      </a>
+    </li>
+    
+    <li itemscope itemtype="http://schema.org/BlogPosting">
       <a href="/2015/08/26/context-for-content-marketing/" itemprop="url">
         <div class="p-wrap">
           <article class="inner">
@@ -174,6 +188,19 @@
         ga('send', 'pageview');
       </script>
     
-
+    <script>window.cookieconsent_options = {theme:'dark-bottom'};</script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/1.0.9/cookieconsent.min.js"></script>
+    <script src="http://div-lb-1358448420.eu-west-1.elb.amazonaws.com/divolte.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+    <script src="/js/hashids.min.js"></script>
+    <script>
+      $(document).ready(function () {
+        var hashids = new Hashids("this is the sound of c");
+        window.tha = hashids.encode(+divolte.fpId);
+        $("a").click(function(){
+          $(this).attr('href', $(this).attr('href')+"#"+window.tha);
+        });
+      });
+    </script>
   </body>
 </html>
