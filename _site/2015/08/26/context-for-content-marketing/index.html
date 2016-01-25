@@ -67,7 +67,7 @@
 
       <header>
         <div class="h-wrap">
-          <h1 class="title"><a href="/" title="Back to Homepage">king context</a></h1>
+          <h1 class="title"><a class="home" href="/" title="Back to Homepage">king context</a></h1>
           <a class="menu-icon" title="Open Bio"><span class="lines"></span></a>
         </div>
       </header>
@@ -106,9 +106,15 @@
 
     </div>
     <div class="feat share">
-      <a href="http://twitter.com/share?text=Context for content marketing&url=http://www.kingcontext.com/2015/08/26/context-for-content-marketing/&via=xorto&related=xorto" rel="nofollow" target="_blank" title="Share on Twitter" class="popup"><span class="icon-twitter"></span></a>
-      <a href="https://facebook.com/sharer.php?u=http://www.kingcontext.com/2015/08/26/context-for-content-marketing/" rel="nofollow" target="_blank" title="Share on Facebook" class="popup"><span class="icon-facebook2"></span></a>
-      <a href="http://www.linkedin.com/shareArticle?mini=true&url=http://www.kingcontext.com/2015/08/26/context-for-content-marketing/&title=Context for content marketing" class="popup"><span class="icon-linkedin"></span>
+    <!--
+      <a id="twitter" href="http://twitter.com/share?text=Context for content marketing&via=xorto&related=xorto&url=http://www.kingcontext.com/2015/08/26/context-for-content-marketing/" rel="nofollow" target="_blank" title="Share on Twitter" class="popup"><span class="icon-twitter"></span></a>
+      -->
+      <a href="http://twitter.com/share?text=Context for content marketing&via=xorto&related=xorto&url=http://www.kingcontext.com/2015/08/26/context-for-content-marketing/" rel="nofollow" target="_blank" title="Share on Twitter" class="popup"><span class="icon-twitter"></span></a>
+      <!--
+      <a id="twitter" href="http://twitter.com/intent/tweet?text=Context for content marketing&via=xorto&related=xorto&url=http://www.kingcontext.com/2015/08/26/context-for-content-marketing/" rel="nofollow" target="_blank" title="Share on Twitter" class="popup"><span class="icon-twitter"></span></a>
+      -->
+      <a id="fbook" href="https://facebook.com/sharer.php?u=http://www.kingcontext.com/2015/08/26/context-for-content-marketing/" rel="nofollow" target="_blank" title="Share on Facebook" class="popup"><span class="icon-facebook2"></span></a>
+      <a id="linkedin" href="http://www.linkedin.com/shareArticle?mini=true&title=Context for content marketing&url=http://www.kingcontext.com/2015/08/26/context-for-content-marketing/" class="popup"><span class="icon-linkedin"></span>
       </a>
     </div>
     
@@ -156,9 +162,20 @@
       $(document).ready(function () {
         var hashids = new Hashids("this is the sound of c");
         window.tha = hashids.encode(+divolte.fpId);
-        $("a").click(function(){
+        $(".posts a").click(function(){
           $(this).attr('href', $(this).attr('href')+"#"+window.tha);
         });
+        $(".single-content a[rel=prev],[rel=next]").click(function(){
+          $(this).attr('href', $(this).attr('href')+"#"+window.tha);
+        });
+        $(".menu-icon").click(function(e) {
+          divolte.signal('bio');
+        });
+        
+        //$(".feat a").click(function(){
+        //  $(this).attr('href', $(this).attr('href')+"#"+window.tha);
+          //divolte.signal($(this).attr('id'));
+        //});
       });
     </script>
   </body>

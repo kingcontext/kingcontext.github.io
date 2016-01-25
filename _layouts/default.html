@@ -69,7 +69,7 @@
 
       <header>
         <div class="h-wrap">
-          <h1 class="title"><a href="{{ site.baseurl | split:'/' | join:'/' | append:'/'  }}" title="Back to Homepage">{{ site.name }}</a></h1>
+          <h1 class="title"><a class="home" href="{{ site.baseurl | split:'/' | join:'/' | append:'/'  }}" title="Back to Homepage">{{ site.name }}</a></h1>
           <a class="menu-icon" title="Open Bio"><span class="lines"></span></a>
         </div>
       </header>
@@ -108,9 +108,20 @@
       $(document).ready(function () {
         var hashids = new Hashids("this is the sound of c");
         window.tha = hashids.encode(+divolte.fpId);
-        $("a").click(function(){
+        $(".posts a").click(function(){
           $(this).attr('href', $(this).attr('href')+"#"+window.tha);
         });
+        $(".single-content a[rel=prev],[rel=next]").click(function(){
+          $(this).attr('href', $(this).attr('href')+"#"+window.tha);
+        });
+        $(".menu-icon").click(function(e) {
+          divolte.signal('bio');
+        });
+        
+        //$(".feat a").click(function(){
+        //  $(this).attr('href', $(this).attr('href')+"#"+window.tha);
+          //divolte.signal($(this).attr('id'));
+        //});
       });
     </script>
   </body>
