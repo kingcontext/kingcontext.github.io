@@ -136,13 +136,7 @@ Insidin is not responsible for the privacy policies or practices of any third pa
 
     </div>
     <div class="feat share">
-    <!--
-      <a id="twitter" href="http://twitter.com/share?text=Privacy statement&via=xorto&related=xorto&url=http://www.kingcontext.com/2015/08/22/privacy-statement/" rel="nofollow" target="_blank" title="Share on Twitter" class="popup"><span class="icon-twitter"></span></a>
-      -->
-      <a href="http://twitter.com/share?text=Privacy statement&via=xorto&related=xorto&url=http://www.kingcontext.com/2015/08/22/privacy-statement/" rel="nofollow" target="_blank" title="Share on Twitter" class="popup"><span class="icon-twitter"></span></a>
-      <!--
-      <a id="twitter" href="http://twitter.com/intent/tweet?text=Privacy statement&via=xorto&related=xorto&url=http://www.kingcontext.com/2015/08/22/privacy-statement/" rel="nofollow" target="_blank" title="Share on Twitter" class="popup"><span class="icon-twitter"></span></a>
-      -->
+      <a href="http://twitter.com/intent/tweet?text=Privacy statement&via=xorto&related=xorto&url=http://www.kingcontext.com/2015/08/22/privacy-statement/" rel="nofollow" target="_blank" title="Share on Twitter" class="popup"><span class="icon-twitter"></span></a>
       <a id="fbook" href="https://facebook.com/sharer.php?u=http://www.kingcontext.com/2015/08/22/privacy-statement/" rel="nofollow" target="_blank" title="Share on Facebook" class="popup"><span class="icon-facebook2"></span></a>
       <a id="linkedin" href="http://www.linkedin.com/shareArticle?mini=true&title=Privacy statement&url=http://www.kingcontext.com/2015/08/22/privacy-statement/" class="popup"><span class="icon-linkedin"></span>
       </a>
@@ -166,7 +160,6 @@ Insidin is not responsible for the privacy policies or practices of any third pa
     </div>
     
 
-    <script src="/js/main.js"></script>
     
     
       <script>
@@ -182,27 +175,7 @@ Insidin is not responsible for the privacy policies or practices of any third pa
     <script>window.cookieconsent_options = {theme:'dark-bottom'};</script>
     <script src="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/1.0.9/cookieconsent.min.js"></script>
     <script src="http://div-lb-1358448420.eu-west-1.elb.amazonaws.com/divolte.js"></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
     <script src="/js/hashids.min.js"></script>
-    <script>
-      $(document).ready(function () {
-        var hashids = new Hashids("this is the sound of c");
-        window.tha = hashids.encode(+divolte.fpId);
-        $(".posts a").click(function(){
-          $(this).attr('href', $(this).attr('href')+"#"+window.tha);
-        });
-        $(".single-content a[rel=prev],[rel=next]").click(function(){
-          $(this).attr('href', $(this).attr('href')+"#"+window.tha);
-        });
-        $(".menu-icon").click(function(e) {
-          divolte.signal('bio');
-        });
-        
-        //$(".feat a").click(function(){
-        //  $(this).attr('href', $(this).attr('href')+"#"+window.tha);
-          //divolte.signal($(this).attr('id'));
-        //});
-      });
-    </script>
+    <script src="/js/main.js"></script>
   </body>
 </html>

@@ -1,4 +1,12 @@
+function signalIt(signal) {
+	divolte.signal(signal);
+}
+
 window.onload = function() {
+
+    var hashids = new Hashids("this is the sound of c");
+    var tha = hashids.encode(+divolte.fpId);
+    window.tha = tha;
 
     var $menuIcon = document.getElementsByClassName('menu-icon')[0],
         $offCanva = document.getElementsByClassName('off-canvas')[0];
@@ -8,6 +16,7 @@ window.onload = function() {
         toggleClass($menuIcon, 'close');
         toggleClass($offCanva, 'toggled');
         toggleClass($siteWrap, 'open');
+        signalIt('bio');
     }, false);
 
     $menuIcon.addEventListener('mouseenter', function() {
@@ -41,26 +50,55 @@ window.onload = function() {
         }
     }
 
-    // Open Twitter/share in a Pop-Up
-    var $popup = document.getElementsByClassName('popup')[0];
-    if (!$popup) {
-        return;
-    }
-    $popup.addEventListener('click', function(e) {
+	function addEventListenerByClass(className, event, fn) {
+	    var list = document.getElementsByClassName(className);
+	    for (var i = 0, len = list.length; i < len; i++) {
+	        list[i].addEventListener(event, fn);
+	    }
+	}
+
+    function changeHref(className, subTag) {
+		var list = document.getElementsByClassName(className);
+	    for (var i = 0, len = list.length; i < len; i++) {
+	        var tags = list[i].getElementsByTagName(subTag);
+	        for (var j = 0, len2 = tags.length; j < len2; j++) {
+	        	tags[j].href = tags[j].href + "#" + window.tha;
+	        }
+	    }
+	}
+
+	function changeHrefRef(className, subTag) {
+		var list = document.getElementsByClassName(className);
+	    for (var i = 0, len = list.length; i < len; i++) {
+	        var tags = list[i].getElementsByTagName(subTag);
+	        for (var j = 0, len2 = tags.length; j < len2; j++) {
+	        	var attr = tags[j].getAttribute('rel');
+	        	if (attr == 'prev' || attr == 'next') {
+	        		tags[j].href = tags[j].href + "#" + window.tha;
+	        	}
+	        }
+	    }
+	}
+
+	changeHref('posts', 'a');
+	changeHrefRef('single-content', 'a');
+
+	addEventListenerByClass('popup', 'click', function(e) {
         e.preventDefault()
         var width  = 575,
             height = 400,
             left   = (document.documentElement.clientWidth  - width)  / 2,
             top    = (document.documentElement.clientHeight - height) / 2,
-            url    = this.href,
+            //url    = this.href + '%23' + tha,
+            url    = this.href + '%23' + tha,
             opts   = 'status=1' +
                      ',width='  + width  +
                      ',height=' + height +
                      ',top='    + top    +
                      ',left='   + left;
-
-        window.open(url, 'twitter', opts);
-
+        window.open(url, 'share', opts);
+        signalIt('share');
         return false;
     });
+
 }
