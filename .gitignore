@@ -16,3 +16,4 @@ Gemfile
 Gemfile.lock
 .bundle
 _drafts
+_site
