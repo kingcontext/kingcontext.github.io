@@ -1,8 +1,12 @@
 # Title of your blog; shows in the header
-name: "king context"
+name: "King Context"
+
+tagline: "Streaming Data with Context to Information"
 
 # Description of your content (will only be used on Google Search)
-description: "king context"
+description: "Streaming Data with Context to Information"
+
+keywords: "data, streaming data, big data, context, context is king, information, information management, data architect, information architecture, master data management"
 
 # Your name. Will show in your footer + sidebar 
 owner: "Jan Uyttenhove"
@@ -37,7 +41,7 @@ ga_tracking_id: UA-66832385-1
 
 markdown: kramdown
 permalink: pretty
-highlighter: pygments
+highlighter: rouge
 
 paginate: 10
 paginate_path: "/page/:num"

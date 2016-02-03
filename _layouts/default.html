@@ -4,12 +4,12 @@
 <!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
 <!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
   <head>
-      <title>{{ site.name }} - {{ site.description }}</title>
+      <title>{{ site.name }} - {{ site.tagline }}</title>
       <meta charset="utf-8">
       <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
       <meta http-equiv="content-language" content="en-gb" />
       <meta name="description" content="{{ site.description }}">
-      <meta name="keywords" content="" />
+      <meta name="keywords" content="{{ site.keywords }}" />
       <meta name="author" content="{{ site.owner }}" /><meta name="author" content="{{ site.author }}" /><meta name="author" content="{{ site.company }}" />
       <meta name="copyright" content="{{ site.company }} & {{ site.owner }}" />
       <meta name="application-name" content="" />
@@ -42,7 +42,7 @@
       </figure>
       <div class="bio">
           <h1>About {{ site.author }}.</h1>
-          <p>King Context is an <a href="http://www.insidin.com">Insidin</a> brand, with a clear focus on data, context and information management. </p>
+          <p>King Context is an <a href="http://www.insidin.com/#kc">Insidin</a> brand, with a clear focus on data, context and information management.</p>
           <p>Contact me via <a href="mailto:{{ site.email }}">{{ site.email }}</a>
       </div>
       <nav>
@@ -98,10 +98,13 @@
         ga('send', 'pageview');
       </script>
     {% endif %}
-    <script>window.cookieconsent_options = {theme:'dark-bottom'};</script>
+    <script>
+      window.cookieconsent_options = {theme:'dark-bottom'};
+    </script>
     <script src="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/1.0.9/cookieconsent.min.js"></script>
     <script src="http://div-lb-1358448420.eu-west-1.elb.amazonaws.com/divolte.js"></script>
     <script src="{{ site.baseurl }}/js/hashids.min.js"></script>
     <script src="{{ site.baseurl }}/js/main.js"></script>
+
   </body>
 </html>
