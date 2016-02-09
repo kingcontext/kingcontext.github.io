@@ -50,11 +50,6 @@
           {% if site.twitter %}
           <a target="_blank" href="https://twitter.com/{{ site.twitter }}"><span class="icon-twitter"/></a>
           {% endif %}
-          <!--
-          {% if site.github %}
-          <a target="_blank" href="https://github.com/{{ site.github }}"><span class="icon-github"></span></a>
-          {% endif %}
-          -->
           {% if site.linkedin %}
           <a target="_blank" href="https://www.linkedin.com/in/{{ site.linkedin }}"><span class="icon-linkedin"/></a>
           {% endif %}
@@ -98,13 +93,9 @@
         ga('send', 'pageview');
       </script>
     {% endif %}
-    <script>
-      window.cookieconsent_options = {theme:'dark-bottom'};
-    </script>
-    <script src="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/1.0.9/cookieconsent.min.js"></script>
     <script src="http://div-lb-1358448420.eu-west-1.elb.amazonaws.com/divolte.js"></script>
     <script src="{{ site.baseurl }}/js/hashids.min.js"></script>
     <script src="{{ site.baseurl }}/js/main.js"></script>
-
+    <script src="{{ site.baseurl }}/js/cookieconsent.min.js"></script>
   </body>
 </html>

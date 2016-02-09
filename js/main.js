@@ -2,6 +2,13 @@ function signalIt(signal) {
 	divolte.signal(signal);
 }
 
+window.cookieconsent_options = {
+    theme:'dark-bottom', 
+    consent_hook: function() { 
+        signalIt('cookieconsent_given'); 
+    } 
+};
+
 window.onload = function() {
 
     var hashids = new Hashids("this is the sound of c");
