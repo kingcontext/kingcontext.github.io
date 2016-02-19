@@ -1,0 +1,44 @@
+---
+layout: default
+title: Tags
+permalink: /tags/
+---
+
+<ul class="tag-cloud">
+{% for tag in site.tags %}
+  <li style="font-size: {{ tag | last | size | times: 100 | divided_by: site.tags.size | plus: 70  }}%">
+    <a href="#{{ tag | first | slugize }}">
+      {{ tag | first }}
+    </a>
+  </li>
+{% endfor %}
+</ul>
+
+<div id="tags">
+    {% for tag in site.tags %}
+    {% capture tag_name %}{{ tag | first }}{% endcapture %}
+    <div class="t-wrap" id="#{{ tag_name | slugize }}">
+      <a name="{{ tag_name | slugize }}">{{ tag_name }}</a>
+    </div>
+
+  <ul class="tposts">
+    {% for post in site.tags[tag_name] %}
+    <li itemscope itemtype="http://schema.org/BlogPosting">
+      <a href="{{ site.baseurl }}{{ post.url }}" itemprop="url">
+        <div class="p-wrap">
+          <article class="inner">
+            <time datetime="{{ post.date | date_to_xmlschema }}"
+                itemprop="datePublished">
+              {{ post.date | date_to_string }}
+            </time>
+            <p itemprop="name headline">{{ post.title }}</p>
+          </article>
+        </div>
+      </a>
+    </li>
+    {% endfor %}
+  </ul>  
+  
+  {% endfor %}
+  
+</div>

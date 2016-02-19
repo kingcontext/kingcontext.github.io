@@ -88,6 +88,8 @@ window.onload = function() {
 	}
 
 	changeHref('posts', 'a');
+    changeHref('tposts', 'a');
+    //changeHref('post-tags', 'a');
 	changeHrefRef('single-content', 'a');
 
 	addEventListenerByClass('popup', 'click', function(e) {

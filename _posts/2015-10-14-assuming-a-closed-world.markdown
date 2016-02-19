@@ -1,6 +1,10 @@
 ---
 layout: post
 title:  "Assuming a closed world"
+tags:
+- information
+- data
+- owa
 date:   2015-10-14 11:04:35
 ---
 Hardly anyone will disagree with the statement that no-one posesses all information and knowledge that is out there. Yet many software systems are built as if they contain or control a complete set of information. They adhere - often unknowingly - the principle of the [Closed world assumption](https://en.wikipedia.org/wiki/Closed-world_assumption).

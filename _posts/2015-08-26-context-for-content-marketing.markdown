@@ -1,6 +1,10 @@
 ---
 layout: post
 title:  "Context for content marketing"
+tags:
+- context
+- content marketing
+- customer insights
 date:   2015-08-26 09:21:11
 ---
 Back in 1996, Bill Gates [wrote](http://www.craigbailey.net/content-is-king-by-bill-gates/) that on the internet, _content is king_. His article is about content providers getting paid for their work. In this perspective he states that the definition of content on the internet is a very broad one. He's talking about the internet as _a marketplace of ideas, experiences, and products - a marketplace of content_.

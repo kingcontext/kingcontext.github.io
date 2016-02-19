@@ -17,6 +17,8 @@
 // Components
 @import 'components/icons';
 @import 'components/syntax';
+@import 'components/tag';
+
 
 // Partials
 @import 'partials/header';
@@ -25,3 +27,4 @@
 // Pages
 @import 'pages/home';
 @import 'pages/posts';
+@import 'pages/tags';

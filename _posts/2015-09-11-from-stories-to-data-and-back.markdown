@@ -1,6 +1,11 @@
 ---
 layout: post
 title:  "From stories to data and back"
+tags:
+- information
+- context
+- stories
+- data
 date:   2015-09-11 09:37:19
 ---
 Maybe, _stories are just data with a soul_. That's a statement of Dr. [Brené Brown](http://brenebrown.com/) about her being a researcher, a storyteller, or both.

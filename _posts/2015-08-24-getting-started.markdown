@@ -1,12 +1,12 @@
 ---
 layout: post
 title:  "Getting started is the hardest part"
+tags:
+- idea
 date:   2015-08-24 16:57:51
 ---
 
 I should start writing to structure my opinions and thoughts.
-
-
 
 Here’s the idea.
 

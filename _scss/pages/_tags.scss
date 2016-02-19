@@ -1,0 +1,91 @@
+.t-wrap {
+    padding: $spacing-xs 0 0 0;
+    background: $hmain-color;
+    transition: all .15s ease-in;
+    border-top: 1px solid darken($hmain-color, 6%);
+    a {
+      font: $font-size-l $font-family;
+      color: $main-color;
+      display: inline-block;
+      padding: 0 $spacing-xs 0 $spacing-xs;
+      margin: 0 0 0 $spacing-xs;
+    }
+}
+
+.tposts {
+  overflow: hidden;
+  li {
+    display: inline-block;
+    width: 100%;
+    //border-bottom: 1px solid darken($hmain-color, 6%);
+
+    &:first-child {
+      //border-top: 1px solid darken($hmain-color, 6%);
+    }
+    .p-wrap {
+      display: inline-block;
+      padding: $spacing-xs $spacing-m;
+      background: $hmain-color;
+      transition: all .15s ease-in;
+      &:active {
+        background: darken($hmain-color, 3%);
+      }
+      &:hover {
+        background: lighten($hmain-color, 3%);
+        .inner {
+          -webkit-transform: translateX($spacing-s);
+          -ms-transform: translateX($spacing-s);
+          transform: translateX($spacing-s);
+          &::after {
+            content:'\2192';
+            margin-left: $spacing-xs;
+            @media (max-width: 942px) {
+              content: none;
+              margin: 0;
+            }
+          }
+        }
+      }
+      @media (max-width: 942px) {
+        padding: $spacing-s $spacing-m;
+        //padding: $spacing-xs $spacing-m $spacing-xs $spacing-m;
+      }
+      p {
+        display: inline;
+        margin: $spacing-xs 0 0;
+      }
+      .inner {
+        transition: all .15s ease-in;
+      }
+    } // end .t-wrap
+
+    time {
+      color: darken($hmain-color, 20%);
+      display: inline-block;
+      padding-right: $spacing-s;
+      width: 155px;
+      @media (max-width: 942px) {
+        display: block;
+        width: auto;
+      }
+    }
+
+    a {
+      color: $text-color;
+      text-decoration: none;
+    }
+
+  } // end li
+} // end .tposts
+
+
+.tag-cloud {
+  list-style: none;
+  padding: 0 $spacing-m;
+  text-align: justify; 
+  font: $font-size-l $font-family;
+  li {
+    display: inline-block;
+    margin: 0 12px 12px 0; 
+  }
+}
