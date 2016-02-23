@@ -87,10 +87,22 @@ window.onload = function() {
 	    }
 	}
 
+    function changeHrefSubclass(className, subClass) {
+        var list = document.getElementsByClassName(className);
+        for (var i = 0, len = list.length; i < len; i++) {
+            var tags = list[i].getElementsByClassName(subClass);
+            for (var j = 0, len2 = tags.length; j < len2; j++) {
+                tags[j].href = tags[j].href + "#" + window.tha;
+            }
+        }
+    }
+
 	changeHref('posts', 'a');
     changeHref('tposts', 'a');
     //changeHref('post-tags', 'a');
 	changeHrefRef('single-content', 'a');
+    changeHrefSubclass('single-content', 'int');
+    changeHrefSubclass('title', 'home');
 
 	addEventListenerByClass('popup', 'click', function(e) {
         e.preventDefault()
