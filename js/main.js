@@ -1,3 +1,28 @@
+
+function checkandsend() {
+    if (document.getElementById('name').value == "" || document.getElementById('email').value == "" || document.getElementById('msg').value == "") {
+        alert("Please fill all fields.");
+    } 
+    else {
+        signalP('contact', {'name':document.getElementById('name').value,'email':document.getElementById('email').value,'message':document.getElementById('msg').value});
+        document.getElementById('msg').value = "";
+        div_hide();
+    }
+}
+
+function div_show() {
+    signalIt('contact-open');
+    document.getElementById('popupDiv').style.display = "block";
+}
+
+function div_hide(){
+    document.getElementById('popupDiv').style.display = "none";
+}
+
+function signalP(signal, params) {
+    divolte.signal(signal, params);
+}
+
 function signalIt(signal) {
 	divolte.signal(signal);
 }

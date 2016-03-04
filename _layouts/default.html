@@ -44,7 +44,8 @@
           <h1>About {{ site.author }}.</h1>
           <p>In short: on context, (streaming) (big) data & information architecture.</p>
           <p>More info soon.</p>
-          <p>To get in touch, contact <a href="https://be.linkedin.com/in/januyttenhove">me</a> via <a href="mailto:{{ site.email }}">{{ site.email }}</a>
+          <p>Feel free to <a class="getintouch" href="javascript:div_show()">contact me</a> with your questions or remarks!</p>
+
       </div>
       <nav>
         <h6>Follow me on</h6>
@@ -62,7 +63,6 @@
 
 
     <div class="site-wrapper">
-
       <header>
         <div class="h-wrap">
           <h1 class="title"><a class="home" href="{{ site.baseurl | split:'/' | join:'/' | append:'/'  }}" title="Back to Homepage">{{ site.name }}</a></h1>
@@ -76,11 +76,26 @@
 
       <footer>
         <h4b>{{ site.name }} is an <a href="http://www.insidin.com">Insidin</a> brand </h4b><br/>
-        <small>Read the <a href="{{ site.baseurl }}/2015/08/22/privacy-statement/">privacy</a> discaimer - Powered by Jekyll - Theme: <a href="https://github.com/m3xm/hikari-for-Jekyll">hikari</a> - &copy; {{ site.company }} & {{ site.owner }}</small>
+        <small>Read the <a href="{{ site.baseurl }}/2015/08/22/privacy-statement/">privacy</a> discaimer - Powered by Jekyll - Theme: <a href="https://github.com/m3xm/hikari-for-Jekyll">hikari</a> - &copy; {{ site.company }} & {{ site.owner }}</small><br/>
+        <h4b><a class="getintouch" href="javascript:div_show()">get in touch</a> </h4b>
       </footer>
 
     </div>
     {% comment %} site-wrapper {% endcomment %}
+
+    <div id="popupDiv">
+      <div id="popupContact">
+      <form action="#" id="contactform" method="post" name="form">
+        <img id="close" src="{{ site.baseurl }}/assets/img/close.png" onclick ="div_hide()" height="25" width="25">
+        <h4>Get in touch</h4>
+        <hr>
+          <input id="name" name="name" placeholder="Name" type="text">
+          <input id="email" name="email" placeholder="Email" type="text">
+          <textarea id="msg" name="message" placeholder="Message"></textarea>
+          <a href="javascript:checkandsend()" id="submit">Send</a>
+      </form>
+      </div>
+    </div>
 
     {% comment %} Google Analytics {% endcomment %}
     {% if site.ga_tracking_id and site.ga_domain %}
