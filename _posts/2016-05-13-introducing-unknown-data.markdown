@@ -12,15 +12,15 @@ NoSQL had to be explained afterwards as "not-only SQL", when it became clear tha
 
 Terminology, it's often a problem. 
 
-Big data? Same story. It's not always all that big. *Smart data*? No, the data itself is not smart. If you mean "smart use of data" by that, it's more a term for a group of use cases, which does make more sense as a matter of fact. But still, every use of data is intended to be smart, no?
+Big data? Same story. It's not always all that big. **Smart data**? No, the data itself is not smart. If you mean "smart use of data" by that, it's more a term for a group of use cases, which does make more sense as a matter of fact. But still, every use of data is intended to be smart, no?
 
 Unstructured data perhaps? There's no such thing. All data has a structure, but perhaps the structure is not apparent or not explicit. The absence of a schema or some form of structure description doesn't mean there isn't any. It's simply not immediately available, and it makes using the data for humans and tools harder. Harder, but not impossible.
 
-In the world of what's commonly referred to as big data, it's about use cases of using and combining data that were never used before to do something smart other than perhaps monitoring systems and do some reporting. The size of these data sources perhaps used to be a problem, so the term big data was first used. In the meantime technology is available to deal with vast amounts of data. And to sustain the hype, a new term is needed.
+In the world of what's commonly referred to as big data, it's about use cases of using and combining data that was never used before to do something smart other than perhaps monitoring systems and do some reporting. The size of these data sources perhaps used to be a problem, so the term big data was first used. In the meantime technology is available to deal with vast amounts of data. And to sustain the hype, a new term is needed.
 
-Terminology, it's often problematic because we're too eager to put a label on it. Because we're hype-addicted.
+Terminology, it's often problematic because we're too eager to put a label on it. Because we are hype-addicted.
 
-Smart usage of previously unused (big) data sources is hard because of two reasons. First of all the existence of the data source needs to be known. And secondly its structure or schema is often unknown, meaning it's unavailable (in a format) to be easily used (in existing tools). This also implies it is unknown explicitly what is *in* the datasource.
+Smart usage of previously unused (big) data sources is hard because of two reasons. First of all the existence of the data source needs to be known. And secondly its structure or schema is often unknown, meaning it's unavailable (in a format) to be easily used (in existing tools). This also implies it is unknown explicitly what is **in** the datasource.
 
 [Dark data](https://en.wikipedia.org/wiki/Dark_data) is one way to call it, but perhaps *unknown data* is a better term? 
 
