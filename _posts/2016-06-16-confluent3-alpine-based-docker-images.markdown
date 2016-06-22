@@ -5,7 +5,7 @@ tags:
 - confluent.io
 - docker
 - container
-date:   2016-06-16 10:16:23
+date: 2016-06-16 10:16:23
 ---
 Just a quick note to communicate the availability of the [confluent.io streaming data platform](http://www.confluent.io) 
 alpine-based docker images for *confluent-3.0.0*.
