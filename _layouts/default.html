@@ -43,9 +43,10 @@
       <div class="bio">
           <h1>About {{ site.author }}.</h1>
           <p>In short: on context, (streaming) (big) data & information architecture.</p>
-          <p>More info soon.</p>
+          <p>More info soon. Someday.</p>
+          <!--
           <p>Feel free to <a class="getintouch" href="javascript:div_show()">contact me</a> with your questions or remarks!</p>
-
+          -->
       </div>
       <nav>
         <h6>Follow me on</h6>
@@ -76,13 +77,16 @@
 
       <footer>
         <h4b>{{ site.name }} is an <a href="http://www.insidin.com">Insidin</a> brand </h4b><br/>
-        <small>Read the <a href="{{ site.baseurl }}/2015/08/22/privacy-statement/">privacy</a> discaimer - Powered by Jekyll - Theme: <a href="https://github.com/m3xm/hikari-for-Jekyll">hikari</a> - &copy; {{ site.company }} & {{ site.owner }}</small><br/>
+        <small>Read the <a href="{{ site.baseurl }}/2015/08/22/privacy-statement/">privacy</a> discaimer - Powered by Jekyll - Theme: <a href="https://github.com/m3xm/hikari-for-Jekyll">hikari</a> - &copy; {{ site.company }} & {{ site.owner }} - All rights reserved</small><br/>
+<!--        
         <h4b><a class="getintouch" href="javascript:div_show()">get in touch</a> </h4b>
+-->
       </footer>
 
     </div>
     {% comment %} site-wrapper {% endcomment %}
 
+<!--
     <div id="popupDiv">
       <div id="popupContact">
       <form action="#" id="contactform" method="post" name="form">
@@ -96,6 +100,7 @@
       </form>
       </div>
     </div>
+-->
 
     {% comment %} Google Analytics {% endcomment %}
     {% if site.ga_tracking_id and site.ga_domain %}
@@ -109,7 +114,7 @@
         ga('send', 'pageview');
       </script>
     {% endif %}
-    <script src="http://div-lb-1358448420.eu-west-1.elb.amazonaws.com/divolte.js"></script>
+    <!--script src="http://div-lb-1358448420.eu-west-1.elb.amazonaws.com/divolte.js"></script-->
     <script src="{{ site.baseurl }}/js/hashids.min.js"></script>
     <script src="{{ site.baseurl }}/js/main.js"></script>
     <script src="{{ site.baseurl }}/js/cookieconsent.min.js"></script>

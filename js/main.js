@@ -1,4 +1,5 @@
 
+/*
 function checkandsend() {
     if (document.getElementById('name').value == "" || document.getElementById('email').value == "" || document.getElementById('msg').value == "") {
         alert("Please fill all fields.");
@@ -18,13 +19,14 @@ function div_show() {
 function div_hide(){
     document.getElementById('popupDiv').style.display = "none";
 }
+*/
 
 function signalP(signal, params) {
-    divolte.signal(signal, params);
+    //divolte.signal(signal, params);
 }
 
 function signalIt(signal) {
-	divolte.signal(signal);
+	//divolte.signal(signal);
 }
 
 window.cookieconsent_options = {
@@ -37,7 +39,9 @@ window.cookieconsent_options = {
 window.onload = function() {
 
     var hashids = new Hashids("this is the sound of c");
-    var tha = hashids.encode(+divolte.fpId);
+    //var tha = hashids.encode(+divolte.fpId);
+    var dada = new Date();
+    var tha = hashids.encode(dada.getMilliseconds());
     window.tha = tha;
 
     var $menuIcon = document.getElementsByClassName('menu-icon')[0],
