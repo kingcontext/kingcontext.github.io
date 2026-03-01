@@ -4,7 +4,7 @@
 <!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
 <!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
   <head>
-      <title>{{ site.name }} - {{ site.tagline }}</title>
+      <title>{{ site.name }} :: {{ site.tagline }}</title>
       <meta charset="utf-8">
       <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
       <meta http-equiv="content-language" content="en-gb" />
@@ -41,23 +41,13 @@
         <img src="{{ site.baseurl }}/assets/img/kc2.png" alt="Picture" title="{{ site.author }}">
       </figure>
       <div class="bio">
-          <h1>About {{ site.author }}.</h1>
-          <p>In short: on context, (streaming) (big) data & information architecture.</p>
-          <p>More info soon. Someday.</p>
-          <!--
-          <p>Feel free to <a class="getintouch" href="javascript:div_show()">contact me</a> with your questions or remarks!</p>
-          -->
+          <h1>{{ site.name }}</h1>
+          <p>A blog by <a href="https://www.linkedin.com/in/{{ site.linkedin }}" target="_blank">Jan Uyttenhove</a>, an <a href="http://www.insidin.com" target="_blank">Insidin</a> brand.</p>
+          <p>Exploring data governance, data products, and the role of context in making data work for organisations.</p>
       </div>
       <nav>
-        <h6>Follow me on</h6>
-          {% if site.twitter %}
-          <a target="_blank" href="https://twitter.com/{{ site.twitter }}"><span class="icon-twitter"/></a>
-          {% endif %}
           {% if site.linkedin %}
           <a target="_blank" href="https://www.linkedin.com/in/{{ site.linkedin }}"><span class="icon-linkedin"/></a>
-          {% endif %}
-          {% if site.facebook %}
-          <a target="_blank" href="https://www.facebook.com/{{ site.facebook }}"><span class="icon-facebook2"/></a>
           {% endif %}
       </nav>
     </div>
@@ -66,7 +56,7 @@
     <div class="site-wrapper">
       <header>
         <div class="h-wrap">
-          <h1 class="title"><a class="home" href="{{ site.baseurl | split:'/' | join:'/' | append:'/'  }}" title="Back to Homepage">{{ site.name }}</a></h1>
+          <h1 class="title"><a class="home" href="{{ site.baseurl | split:'/' | join:'/' | append:'/'  }}" title="Back to Homepage">{{ site.name }} :: {{ site.tagline }}</a></h1>
           <a class="menu-icon" title="Open Bio"><span class="lines"></span></a>
         </div>
       </header>
@@ -76,11 +66,9 @@
       </main>
 
       <footer>
-        <h4b>{{ site.name }} is an <a href="http://www.insidin.com">Insidin</a> brand </h4b><br/>
-        <small>Read the <a href="{{ site.baseurl }}/2015/08/22/privacy-statement/">privacy</a> discaimer - Powered by Jekyll - Theme: <a href="https://github.com/m3xm/hikari-for-Jekyll">hikari</a> - &copy; {{ site.company }} & {{ site.owner }} - All rights reserved</small><br/>
-<!--        
-        <h4b><a class="getintouch" href="javascript:div_show()">get in touch</a> </h4b>
--->
+        <h4b>{{ site.name }} is an <a href="http://www.insidin.com">Insidin</a> brand</h4b><br/>
+        <small>Read the <a href="{{ site.baseurl }}/2015/08/22/privacy-statement/">privacy &amp; license</a> statement &mdash; &copy; {{ site.company }} &amp; {{ site.owner }} &mdash; <a href="{{ site.baseurl }}/LICENSE" target="_blank" rel="license noopener">CC BY-SA 4.0</a></small><br/>
+        <small class="disclaimer">Some articles on this site were written with the assistance of an LLM (large language model / generative AI), based on original ideas, frameworks and concepts by the author.</small>
       </footer>
 
     </div>

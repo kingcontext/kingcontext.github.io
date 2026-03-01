@@ -1,7 +1,7 @@
 # Title of your blog; shows in the header
 name: "King Context"
 
-tagline: "Streaming Data with Context to Information"
+tagline: "because Context is King"
 
 # Description of your content (will only be used on Google Search)
 description: "Streaming Data with Context to Information"
@@ -45,6 +45,9 @@ permalink: pretty
 
 paginate: 10
 paginate_path: "/page/:num"
+
+plugins:
+  - jekyll-paginate
 
 # SCSS
 
