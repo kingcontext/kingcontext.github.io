@@ -41,14 +41,15 @@
         <img src="{{ site.baseurl }}/assets/img/kc2.png" alt="Picture" title="{{ site.author }}">
       </figure>
       <div class="bio">
-          <h1>{{ site.name }}</h1>
-          <p>A blog by <a href="https://www.linkedin.com/in/{{ site.linkedin }}" target="_blank">Jan Uyttenhove</a>, an <a href="http://www.insidin.com" target="_blank">Insidin</a> brand.</p>
-          <p>Exploring data governance, data products, and the role of context in making data work for organisations.</p>
+          <h1>{{ site.name }} :: {{ site.tagline }}</h1>
+          <p>Covering the change and adoption of AI and data products, platforms &amp; governance, in context of the enterprise.</p>
+          <p>Content by <a href="https://www.linkedin.com/in/{{ site.linkedin }}" target="_blank">Jan Uyttenhove</a> &amp; <a href="http://www.insidin.com" target="_blank">Insidin &mdash; Inside Information</a>.</p>
       </div>
       <nav>
           {% if site.linkedin %}
-          <a target="_blank" href="https://www.linkedin.com/in/{{ site.linkedin }}"><span class="icon-linkedin"/></a>
+          <a target="_blank" href="https://www.linkedin.com/in/{{ site.linkedin }}" title="LinkedIn"><span class="icon-linkedin"></span></a>
           {% endif %}
+          <a id="contact-mail" data-u="naj" data-d="moc.txetnockgnik" title="Send an email">&#9993;</a>
       </nav>
     </div>
 

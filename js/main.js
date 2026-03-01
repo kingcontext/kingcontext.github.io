@@ -126,6 +126,14 @@ window.onload = function() {
         }
     }
 
+    // Assemble contact email from reversed parts — keeps address out of HTML source
+    var m = document.getElementById('contact-mail');
+    if (m) {
+        var u = m.getAttribute('data-u').split('').reverse().join('');
+        var d = m.getAttribute('data-d').split('').reverse().join('');
+        m.href = 'mailto:' + u + '@' + d;
+    }
+
 	changeHref('posts', 'a');
     changeHref('tposts', 'a');
     //changeHref('post-tags', 'a');

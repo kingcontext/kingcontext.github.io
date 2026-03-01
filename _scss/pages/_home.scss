@@ -9,6 +9,25 @@
       border-top: 1px solid darken($hmain-color, 6%);
     }
 
+    .post-tag-list {
+      float: right;
+      line-height: 1.4;
+      @media (max-width: 942px) {
+        display: none;
+      }
+    }
+
+    .post-tag {
+      display: inline-block;
+      font-size: 0.68em;
+      padding: 1px 7px;
+      margin-left: 4px;
+      border: 1px solid $border-color;
+      border-radius: 3px;
+      color: lighten($text-color, 35%);
+      white-space: nowrap;
+    }
+
     .p-wrap {
       padding: $spacing-xs $spacing-m;
       background: $hmain-color;
@@ -41,6 +60,7 @@
       }
       .inner {
         transition: all .15s ease-in;
+        overflow: hidden;
       }
     } // end .p-wrap
 
